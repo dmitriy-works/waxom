@@ -1,0 +1,138 @@
+
+@media(max-width:1000px){
+  .slick-prev.slick-arrow {
+    left: 80px;
+  }
+  .slick-next.slick-arrow {
+    right: 80px;
+  }
+}
+
+
+
+
+@media(max-width:906px){
+  .header__menu-list{
+    display: none;
+  }
+  .header__burger{
+    display: block;
+  }
+  .header__menu-list {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color:rgba(74, 72, 66, .6);
+    text-align: center;    
+  }
+  .header__menu-list li{
+    display: block;
+    padding: 5px 0;
+    border: 1px solid #ccc;
+  }
+  .header__menu-list li+li{
+    margin-left: 0;
+  }
+  .header__menu-list a{
+    display: block; 
+  }
+ .slick-prev.slick-arrow {
+   left: 50px;
+  }
+  .slick-next.slick-arrow {
+    right: 50px;
+  }
+  .header__intro-inner{
+    margin-top: 250px;
+  }
+}
+
+@media(max-width:775px){
+  .slick-prev.slick-arrow {
+   width: 0;
+   height: 0;
+   padding: 0;
+  }
+  .slick-next.slick-arrow {
+   width: 0;
+   height: 0;
+   padding: 0;
+  }
+  .header__intro-inner{
+    margin-top: 310px;
+  }
+}
+
+@media(max-width:612px){
+  .header__intro-title{
+  font-size: 42px;
+  font-weight: 800;
+   margin-bottom: 30px;
+  }
+}
+
+@media(max-width:545px){
+   .header__intro-text{
+   font-size: 14px;
+   font-weight: 300;
+   margin-bottom: 30px;
+  }
+}
+
+@media(max-width:503px){
+  .header__intro-suptitle{
+  font-size: 30px;
+  margin-bottom: 5px;
+  }
+  .header__intro-title{
+  font-size: 35px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  } 
+  .header__inner{
+    height: 90px;
+  } 
+}
+
+@media(max-width:476px){
+  .header__intro-text{
+    font-size: 12px;
+  }
+  .header__intro-inner{
+    margin-top: 330px;
+  }
+}
+
+@media(max-width:423px){
+  .header__intro-suptitle{
+  font-size: 25px;
+  line-height: 65px;
+  margin-bottom: 0;
+  }
+  .header__intro-title{
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  }  
+  .header__intro-text{
+    font-size: 10px;
+  }
+}
+
+@media(max-width:366px){
+  .header__intro-suptitle{
+  font-size: 20px;
+  line-height: 45px;
+  margin-bottom: 0;
+  }
+  .header__intro-title{
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  }  
+  .header__intro-text{
+    font-size: 9px;
+  }
+}

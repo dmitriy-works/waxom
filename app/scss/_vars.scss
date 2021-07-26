@@ -1,0 +1,21 @@
+$text:#546e7a;
+$blue:#2aacc8;
+$bg: #e8ebf1;
+
+
+
+@mixin f500 {
+ font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+
+@mixin f700 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+@mixin f800 {
+ font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
